@@ -153,7 +153,7 @@ FROM RowNumCTE
 WHERE row_num > 1
 ORDER BY PropertyAddress
 
--- Delete Unused Columns
+-- Delete Unused Columns --
 
 
 ALTER TABLE PortfolioProject.dbo.NashvilleHousing
